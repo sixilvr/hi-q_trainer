@@ -1,0 +1,63 @@
+body {
+  margin: 1%;
+  background-color: #ffeeaa;
+  font-family: Helvetica, sans-serif;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+h2 {
+  font-size: 25px;
+  font-weight: normal;
+}
+
+p, label {
+  font-size: 20px;
+}
+
+.board {
+  border-radius: 20px;
+  padding: 0.5% 2% 2% 2%;
+  background-color: #ddcc99;
+}
+
+textarea {
+  padding: 0.5%;
+  font-size: 20px;
+  width: 98%;
+  resize: vertical;
+}
+
+button {
+  padding: 0.5%;
+  font-size: 20px;
+}
+
+.answer {
+  background-color: black;
+  display: inline;
+}
+
+.answer:hover {
+  background-color: inherit;
+}
+
+.footer {
+  position: fixed;
+  left: 0%;
+  bottom: 0%;
+  width: 100%;
+  padding: 10px;
+  padding: 1vw;
+  background-color: #c7c7c7;
+  color: #404040;
+  font-size: 16px;
+  font-size: 1vw;
+  opacity: 90%;
+}
+
+.footer:hover {
+  opacity: 0%;
+}

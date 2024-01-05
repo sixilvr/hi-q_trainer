@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hi-Q Questions Tool</title>
+    <meta name="description" content="A tool to help practice questions for Hi-Q.">
+    <meta name="author" content="SL">
+    <link rel="icon" href="https://fmfcufoundation.org/wp-content/uploads/2015/11/Hi-Q-Logo_200.png">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>
+      Hi-Q Questions Tool
+    </h1>
+    <div id="board" class="board">
+      <p>
+        Paste your questions below, and they will be converted to flash cards.
+      </p>
+      <p>
+        <em>The questions should have a question mark at the end, followed by a space, the answer, and a newline.</em>
+      </p>
+      <textarea id="textArea" placeholder="Paste questions here&hellip;" rows="10" cols="50" autofocus></textarea>
+      <br><br>
+      <input id="ignoreBox" type="checkbox" checked>
+      <label for="ignoreBox">Ignore lines without a question mark</label>
+      <br><br>
+      <input id="shuffleBox" type="checkbox" checked>
+      <label for="shuffleBox">Shuffle questions</label>
+      <br><br>
+      <button id="submitButton" onclick="submitQuestions()" title="ctrl+enter">Submit</button>
+    </div>
+    <br><br>
+    <div class="footer" id="footer">
+      Not affiliated with Delco Hi-Q
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
